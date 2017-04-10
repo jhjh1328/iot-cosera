@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-cosera
+  host: iot-cosera
+  disk_quota: 1024M
+  services:
+  - iot-cosera-cloudantNoSQLDB
+  - iot-cosera-iotf-service
